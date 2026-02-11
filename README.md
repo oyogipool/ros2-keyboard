@@ -11,8 +11,8 @@ This window needs to becurrently focused, otherwise this node will not receive a
 3. Clone this repository
   - (ssh) `$ git clone git@github.com:cmower/ros2-keyboard.git`
   - (https) `$ git clone https://github.com/cmower/ros2-keyboard.git`
-4. Install SDL 1.2 with the command `sudo apt install libsdl1.2-dev`.
-5. `$ cd /path/to/your_ws`
+4. `$ cd /path/to/your_ws`
+5. Install SDL 1.2 with the command, `$ rosdep install --from-paths src --ignore-src`.
 6. `$ colcon build`
 
 # Nodes
